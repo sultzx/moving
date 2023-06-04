@@ -25,7 +25,7 @@ const start = async () => {
     } catch (error) {
         console.log(`database ERROR\tcodename: ${error.message}`)
     }
-    app.use('/', express.Router().get((req, res) => {
+    app.use('/', express.Router().get('/', (req, res) => {
         try {
             res.status(200).send('Moving company server started successfuly')
         } catch (error) {
