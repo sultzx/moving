@@ -1,0 +1,36 @@
+.profile-card {
+    border: 1px solid #52B69A;
+    border-radius: 12px;
+    background: linear-gradient(50deg,  #52B69A 50%, #34A0A4);
+    .card-body {
+      .card-title {
+          font-size: large;
+          color:white;
+          text-shadow: 1px 1px 3px #247878;
+          margin-bottom: 20px;
+      }
+    }
+}
+
+.profile-avatar {
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+}
+
+.profile-avatar:hover {
+    opacity: 0.5;
+}
+
+.form-label {
+    color: white
+}
+
+p {
+    color: white
+}
+.client-fullname {
+    color: white
+}

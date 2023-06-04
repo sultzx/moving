@@ -1,0 +1,147 @@
+.order-card {
+    margin: 14px 0 14px 0px;
+    border: 1px solid #34A0A4;
+    border-radius: 12px;
+    background:  #52B69A;
+    .card-body {
+      .card-title {
+          font-size: 20px;
+          color: white;
+          margin-bottom: 20px;
+          font-weight: 600;
+          transition-duration: 0.5s;
+      };
+      p {
+        transition: 0.5s;
+        color: white;
+      }
+    }
+    transition-duration: 0.6s;
+}
+.order-card:hover {
+    cursor: pointer;
+    border: 1px solid #34A0A4;
+    background: white;
+    .card-body {
+      .card-title {
+          font-size: 20px;
+          color:#34A0A4;
+          margin-bottom: 20px;
+      }
+    };
+    p {
+      color: #52B69A;
+    }
+}
+
+.delete-order-btn {
+  margin: 0px;
+  .icon {
+    transition: 0.5s;
+  }
+  transition: 0.5s;
+}
+
+.delete-order-btn:hover {
+  margin: 0px;
+  .icon:hover {
+    color: #52B69A;
+  }
+}
+
+
+.order-card-date.today {
+  color: white;
+  border: 1px solid black;
+  background-color: #c1121f;
+  border-radius: 6px;
+  padding: 3px 6px;
+}
+
+.order-card-date.tomorrow {
+  color: white;
+  border: 1px solid black;
+  background-color: #8338ec;
+  border-radius: 6px;
+  padding: 3px 6px;
+}
+
+.order-card-date.week {
+  color: white;
+  border: 1px solid black;
+  background-color: #3a86ff;
+  border-radius: 6px;
+  padding: 3px 6px;
+}
+
+.order-card-date.fastly {
+  color: white;
+  border: 1px solid black;
+  background-color: #f7b538;
+  border-radius: 6px;
+  padding: 3px 6px;
+}
+
+.order-card-date.datepick {
+  color: #3a4e48;
+  border: 2px solid black;
+  background-color: transparent;
+  border-radius: 6px;
+  padding: 3px 6px;
+}
+
+.order-card-discription {
+  margin: 0px 0px 12px 0px;
+  padding: 12px;
+  border: 1px solid #fb8500;
+  border-radius: 6px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  color: #212529;
+  // height: 78px;
+}
+
+.order-card-discription.for-owner {
+  margin: 0px 0px 12px 0px;
+  padding: 12px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+
+  color: #212529;
+  // height: 78px;
+}
+
+.order-card-discription-label {
+  font-weight: 500px;
+  font-size: 18px;
+  margin: 20px 0 0px 0px;
+  padding: 4px 8px;
+  color: #fb8500;
+  background-color: #FFE2C2;
+  border: 1px solid #fb8500;
+  border-bottom-color: transparent;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.order-card-status {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 3px 9px;
+  background-color: #fb8500;
+  margin: 12px 6px;
+  color: white;
+}
+
+.order-card-owner-img {
+  margin: 0 0 0 8px;
+  padding: 4px;
+  border: 1px solid #fb8500;
+  border-radius: 6px;
+}
+
+.btn.btn-primary.outline {
+  border: 1px solid #fb8500;
+  background-color: transparent;
+  color: #fb8500;
+}

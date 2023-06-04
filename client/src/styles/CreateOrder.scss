@@ -1,0 +1,62 @@
+.order-img {
+    border: 1px solid #fb8500;
+    border-radius: 6px;
+    height: 422px;
+
+    padding: 0;
+    transition-duration: 0.5s;
+}
+
+.order-img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.order-select-date {
+    border: 1px solid #fb8500;
+    border-radius: 6px;
+    padding: 10px 10px 10px 10px;
+}
+
+.btn.btn-primary.choose-car-body-btn {
+    border: 1px solid #fb8500;
+    border-radius: 6px;
+    background-color: white;
+    color:#fb8500;
+    padding: 10px;
+}
+
+.car-body-card {
+    border: 1px solid #D9ED92;
+    box-shadow: 1px 2px 24px #34A0A4;
+    border-radius: 6px;
+    color: white;
+    margin: 12px 0 12px 0;
+    background: linear-gradient(50deg,  #52B69A 50%, #34A0A4);
+    .card-text {
+        height: 80px;
+    }
+}
+
+.car-body-card:hover {
+    background: linear-gradient(100deg,  #52B69A 50%, #34A0A4);
+    color: white;
+    .car-body-size-span {
+        color: #fb8500;
+        background: white;
+    }
+}
+
+.car-body-size-span {
+    padding: 4px 8px;
+    color: white;
+    background: #fb8500;
+    border: 1px solid #fb8500;
+    border-radius: 6px;
+    transition-duration: 0.5s;
+}
+
+.car-body-price-span {
+    font-weight: 800;
+    font-size: medium;
+}

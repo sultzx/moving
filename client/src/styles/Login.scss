@@ -1,0 +1,64 @@
+
+
+.login-card {
+
+  margin: 40px 0 40px 0;
+
+  width: 500px;
+  border: 1px solid #52B69A;
+  border-radius: 12px;
+  background: linear-gradient(50deg,  #52B69A 50%, #34A0A4);
+  .card-body {
+    .card-title {
+        font-size: 1.8rem;
+        color:white;
+        margin-bottom: 20px;
+    }
+  }
+}
+
+.btn.btn-primary.switch-to-client-outline-btn {
+    background: transparent;
+    color: white;
+    text-shadow: 1px 1px 1px gray;
+}
+
+.btn.btn-primary.switch-to-client-outline-btn:hover {
+    text-decoration: underline;
+}
+
+.form-control-input {
+  padding: 10px;
+  border: 1px solid #52B69A;
+}
+
+.form-control-input.active {
+  padding: 10px;
+  border: 1px solid #52B69A;
+}
+
+.nav-link {
+  color: #52B69A;
+}
+
+.nav-link:hover {
+  color: #D9ED92;
+}
+
+.nav-link.switch-nav-link {
+  color: white;
+  background: #52B69A;
+  border: 1px solid #D9ED92
+}
+
+.nav-link.switch-nav-link:focus {
+  color: white;
+  background: #52B69A;
+
+}
+
+.nav-link.active.switch-nav-link {
+  color: white;
+  background: #52B69A;
+  padding: 8px;
+}
