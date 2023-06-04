@@ -27,7 +27,7 @@ const start = async () => {
     }
     app.use('/', express.Router().get('/', (req, res) => {
         try {
-            res.status(200).send('<h4 style="color: blue; ">Moving компаниясы сервері сәтті қосылды!</h4>')
+            res.status(200).send('<h3 style="color: blue; margin: 24px auto;" class="text-center">Moving компаниясы сервері сәтті қосылды!</h3>')
         } catch (error) {
             res.status(500).send(error.message)
         }
